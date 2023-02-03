@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     padding: 15px 150px 100px 150px;
@@ -75,6 +80,7 @@ button.sign-up, .call-to-action {
     color: #F9FAF8;
     padding: 5px 20px;
     border-radius: 8px;
+    border: 1px solid #E5E7EB;
 }
 
 /* Random info */
@@ -86,7 +92,7 @@ button.sign-up, .call-to-action {
 .info-title-container {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -156,11 +162,17 @@ button.sign-up, .call-to-action {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    /* background-color: #3882F6; */
     padding: 25px 60px;
-    /* border-radius: 10px; */
 }
 
-.call-to-action button {
-    border: 1px solid #E5E7EB;
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
+
+.footer > p {
+    padding-top: 35px;
+}
+
