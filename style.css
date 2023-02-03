@@ -70,7 +70,7 @@ li a {
     padding-bottom: 15px;
 }
 
-button.sign-up {
+button.sign-up, .call-to-action {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 5px 20px;
@@ -78,6 +78,10 @@ button.sign-up {
 }
 
 /* Random info */
+
+.info-container {
+    padding-bottom: 50px;
+}
 
 .info-title-container {
     display: flex;
@@ -114,4 +118,49 @@ button.sign-up {
     text-align: center  ;
     max-width: 150px;
     padding-top: 10px;
+    color: #8b8989;
+}
+
+/* Quote section */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 50px 160px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote-who {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    min-width: 671px;
+}
+
+/* Call to action */
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 90px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    /* background-color: #3882F6; */
+    padding: 25px 60px;
+    /* border-radius: 10px; */
+}
+
+.call-to-action button {
+    border: 1px solid #E5E7EB;
 }
